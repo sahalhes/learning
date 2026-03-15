@@ -1,6 +1,10 @@
 [project]
 name = "spacedrep"
 version = "0.1.0"
+description = "Simple spaced repetition CLI for revising past notes"
+authors = [{name="Sahal Hussain"}]
+readme = "README.md"
+requires-python = ">=3.8"
 
 [project.scripts]
 revise = "revise.cli:main"
